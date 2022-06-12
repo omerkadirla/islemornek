@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İşlemler</title>
+    <link rel="stylesheet" href="işlem.css">
+</head>
+<body>
+    <form name="toplam">
+        <label>1. Sayı : </label>
+        <input type="text" id="sayi1"><br><br>
+        <label>2. Sayı : </label>
+        <input type="text" id="sayi2"><br><br>
+        
+        <input type="button" id="btnTopla" value="TOPLA" onclick="Toplama()">
+        <input type="button" id="btnCikar" value="ÇIKAR" onclick="Cikarma()">
+        <input type="button" id="btnCarp" value="ÇARP" onclick="Carpma()">
+        <input type="button" id="btnBol" value="BÖL" onclick="Bolme()">
+    </form>
+    <br>
+    <div id="kutuSonuc"></div>
+    <script src="işlem.js"></script>
+    
+</body>
+</html>
